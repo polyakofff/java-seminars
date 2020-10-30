@@ -100,6 +100,8 @@ public class ClassSimulator {
     public static void main(String[] args) {
         allStudents = new HashMap<>();
 
+        new ArrayList<>().contains(null);
+
         if (args.length != 0) {
             try {
                 Scanner reader = new Scanner(new File(args[0]));
